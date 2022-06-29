@@ -28,7 +28,9 @@ li {
   color: white;
   font-size: 35px;
   background-color: #858693;
-  border: 2px solid lightgrey;
+  border-top: 2px solid lightgrey;
+  border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
   width: 100%;
   line-height: 250%;
 }
@@ -131,7 +133,8 @@ li {
 .lightgrey {
   line-height: 400%;
   font-weight: bold;
-  border: 2px solid #bababa;
+  border-top: 2px solid lightgrey;
+  border-left: 2px solid lightgrey;
   text-align: center;
   background-color: #e0e0e0;
 }
@@ -139,7 +142,9 @@ li {
 .orange {
   line-height: 400%;
   font-weight: bold;
-  border: 2px solid #bababa;
+  border-top: 2px solid lightgrey;
+  border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
   text-align: center;
   background-color: #f5913e;
 }
