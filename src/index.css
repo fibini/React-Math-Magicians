@@ -41,6 +41,7 @@ li {
 }
 
 .plus-minus {
+  direction: ltr;
   grid-area: plus-minus;
   width: 100%;
 }
