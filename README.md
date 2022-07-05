@@ -3,18 +3,16 @@
 # React-Math-Magician
 
 > Description the project.
+A small calculator app built using SPA, it has a home page, calculator page and a quote page
 
 
 
 ## Built With
 
 - React
-- 
-- 
-
-## Live Demo (if available)
-
-[Live Demo Link]()
+- JavaScript
+- HTML
+- CSS
 
 
 ## Getting Started
@@ -30,6 +28,7 @@ copy the repository from the drop down code menu
 
 ### Install
 clone the repository to your local machine through your code editor using git clone
+run npm install and then npm start
 
 
 ### Usage
@@ -64,5 +63,4 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## 📝 License
 
