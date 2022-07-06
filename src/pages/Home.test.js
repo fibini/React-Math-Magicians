@@ -1,10 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Calcu from '../pages/Calcu';
+import Home from './Home';
 
 describe('Jest Snapshot testing suite', () => {
   it('Matches DOM Snapshot', () => {
-    const domTree = renderer.create(<Calcu />).toJSON();
+    const domTree = renderer.create(<Home />).toJSON();
     expect(domTree).toMatchSnapshot();
   });
 });
