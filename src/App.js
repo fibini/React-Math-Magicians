@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Calcu from './pages/Calculator';
+import Calcu from './pages/Calcu';
 import Quote from './pages/Quote';
 import Navbar from './pages/Navbar';
 import Home from './pages/Home';
