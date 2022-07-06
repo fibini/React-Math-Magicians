@@ -13,7 +13,7 @@ const Calculator = () => {
   };
   return (
     <ul className="calculator">
-      <li className="answer">{emptycalc.next || emptycalc.total || '0'}</li>
+      <li data-testid="answer-slot" className="answer">{emptycalc.next || emptycalc.total || '0'}</li>
       <button
         type="button"
         name="AC"
@@ -47,6 +47,7 @@ const Calculator = () => {
         7
       </button>
       <button
+        data-testid="eight"
         type="button"
         name="8"
         className="eight lightgrey"

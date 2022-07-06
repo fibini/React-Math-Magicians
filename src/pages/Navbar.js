@@ -13,7 +13,7 @@ const Navbar = () => (
         <NavLink to="/">Home</NavLink>
       </li>
       <div className="devider" />
-      <li>
+      <li data-testid="calc-page">
         <NavLink to="/calculator">Calculator</NavLink>
       </li>
       <div className="devider" />
