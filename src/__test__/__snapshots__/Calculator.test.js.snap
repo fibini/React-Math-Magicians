@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest Snapshot testing suite Matches DOM Snapshot 1`] = `
+<ul
+  className="calculator"
+>
+  <li
+    className="answer"
+    data-testid="answer-slot"
+  >
+    0
+  </li>
+  <button
+    className="ac lightgrey"
+    name="AC"
+    onClick={[Function]}
+    type="button"
+  >
+    AC
+  </button>
+  <button
+    className="plus-minus lightgrey"
+    name="+/-"
+    onClick={[Function]}
+    type="button"
+  >
+    +/-
+  </button>
+  <button
+    className="percentage lightgrey"
+    name="%"
+    onClick={[Function]}
+    type="button"
+  >
+    %
+  </button>
+  <button
+    className="seven lightgrey"
+    name="7"
+    onClick={[Function]}
+    type="button"
+  >
+    7
+  </button>
+  <button
+    className="eight lightgrey"
+    data-testid="eight"
+    name="8"
+    onClick={[Function]}
+    type="button"
+  >
+    8
+  </button>
+  <button
+    className="division orange"
+    name="÷"
+    onClick={[Function]}
+    type="button"
+  >
+    ÷
+  </button>
+  <button
+    className="nine lightgrey"
+    name="9"
+    onClick={[Function]}
+    type="button"
+  >
+    9
+  </button>
+  <button
+    className="multiply orange"
+    name="x"
+    onClick={[Function]}
+    type="button"
+  >
+    x
+  </button>
+  <button
+    className="four lightgrey"
+    name="4"
+    onClick={[Function]}
+    type="button"
+  >
+    4
+  </button>
+  <button
+    className="five lightgrey"
+    name="5"
+    onClick={[Function]}
+    type="button"
+  >
+    5
+  </button>
+  <button
+    className="six lightgrey"
+    name="6"
+    onClick={[Function]}
+    type="button"
+  >
+    6
+  </button>
+  <button
+    className="minus orange"
+    name="-"
+    onClick={[Function]}
+    type="button"
+  >
+    -
+  </button>
+  <button
+    className="one lightgrey"
+    name="1"
+    onClick={[Function]}
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="two lightgrey"
+    name="2"
+    onClick={[Function]}
+    type="button"
+  >
+    2
+  </button>
+  <button
+    className="three lightgrey"
+    name="3"
+    onClick={[Function]}
+    type="button"
+  >
+    3
+  </button>
+  <button
+    className="plus orange"
+    name="+"
+    onClick={[Function]}
+    type="button"
+  >
+    +
+  </button>
+  <button
+    className="zero lightgrey"
+    name="0"
+    onClick={[Function]}
+    type="button"
+  >
+    0
+  </button>
+  <button
+    className="decimal lightgrey"
+    name="."
+    onClick={[Function]}
+    type="button"
+  >
+    .
+  </button>
+  <button
+    className="equal orange"
+    name="="
+    onClick={[Function]}
+    type="button"
+  >
+    =
+  </button>
+</ul>
+`;

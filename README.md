@@ -47,6 +47,12 @@ run npm install and then npm start
 - Twitter: [@Onenewpage1](https://twitter.com/Onenewpage1)
 - LinkedIn: [fabien brathwaite](https://www.linkedin.com/in/fabien-brathwaite-91150822a/)
 
+👤 **Dafne**
+
+- GitHub: [@Daf98](https://github.com/Daf98)
+- Twitter: [@dafne_azzolina](https://twitter.com/dafne_azzolina)
+- LinkedIn: [dafne-azzolina](https://www.linkedin.com/in/dafne-azzolina/))
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
