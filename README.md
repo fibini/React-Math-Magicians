@@ -14,6 +14,9 @@ A small calculator app built using SPA, it has a home page, calculator page and 
 - HTML
 - CSS
 
+###Live Demo
+[Live Demo](https://resonant-malabi-7bec00.netlify.app)
+
 
 ## Getting Started
 
