@@ -1,0 +1,4 @@
+.calc-box {
+    display: flex;
+    justify-content: space-between;
+  }

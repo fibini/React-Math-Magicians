@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import calculate from './logic/calculate';
+import './CSS/Calculator.css';
+import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [emptycalc, setcalc] = useState({
@@ -17,7 +18,7 @@ const Calculator = () => {
       <button
         type="button"
         name="AC"
-        className="ac lightgrey"
+        className="ac lightgrey width"
         onClick={handleClick}
       >
         AC
@@ -25,7 +26,7 @@ const Calculator = () => {
       <button
         type="button"
         name="+/-"
-        className="plus-minus lightgrey"
+        className="plus-minus lightgrey width"
         onClick={handleClick}
       >
         +/-
@@ -33,7 +34,7 @@ const Calculator = () => {
       <button
         type="button"
         name="%"
-        className="percentage lightgrey"
+        className="percentage lightgrey width"
         onClick={handleClick}
       >
         %
@@ -41,7 +42,7 @@ const Calculator = () => {
       <button
         type="button"
         name="7"
-        className="seven lightgrey"
+        className="seven lightgrey width"
         onClick={handleClick}
       >
         7
@@ -50,7 +51,7 @@ const Calculator = () => {
         data-testid="eight"
         type="button"
         name="8"
-        className="eight lightgrey"
+        className="eight lightgrey width"
         onClick={handleClick}
       >
         8
@@ -58,7 +59,7 @@ const Calculator = () => {
       <button
         type="button"
         name="÷"
-        className="division orange"
+        className="division orange width"
         onClick={handleClick}
       >
         ÷
@@ -66,7 +67,7 @@ const Calculator = () => {
       <button
         type="button"
         name="9"
-        className="nine lightgrey"
+        className="nine lightgrey width"
         onClick={handleClick}
       >
         9
@@ -74,7 +75,7 @@ const Calculator = () => {
       <button
         type="button"
         name="x"
-        className="multiply orange"
+        className="multiply orange width"
         onClick={handleClick}
       >
         x
@@ -82,7 +83,7 @@ const Calculator = () => {
       <button
         type="button"
         name="4"
-        className="four lightgrey"
+        className="four lightgrey width"
         onClick={handleClick}
       >
         4
@@ -90,7 +91,7 @@ const Calculator = () => {
       <button
         type="button"
         name="5"
-        className="five lightgrey"
+        className="five lightgrey width"
         onClick={handleClick}
       >
         5
@@ -98,7 +99,7 @@ const Calculator = () => {
       <button
         type="button"
         name="6"
-        className="six lightgrey"
+        className="six lightgrey width"
         onClick={handleClick}
       >
         6
@@ -106,7 +107,7 @@ const Calculator = () => {
       <button
         type="button"
         name="-"
-        className="minus orange"
+        className="minus orange width"
         onClick={handleClick}
       >
         -
@@ -114,7 +115,7 @@ const Calculator = () => {
       <button
         type="button"
         name="1"
-        className="one lightgrey"
+        className="one lightgrey width"
         onClick={handleClick}
       >
         1
@@ -122,7 +123,7 @@ const Calculator = () => {
       <button
         type="button"
         name="2"
-        className="two lightgrey"
+        className="two lightgrey width"
         onClick={handleClick}
       >
         2
@@ -130,7 +131,7 @@ const Calculator = () => {
       <button
         type="button"
         name="3"
-        className="three lightgrey"
+        className="three lightgrey width"
         onClick={handleClick}
       >
         3
@@ -138,7 +139,7 @@ const Calculator = () => {
       <button
         type="button"
         name="+"
-        className="plus orange"
+        className="plus orange width"
         onClick={handleClick}
       >
         +
@@ -154,7 +155,7 @@ const Calculator = () => {
       <button
         type="button"
         name="."
-        className="decimal lightgrey"
+        className="decimal lightgrey width"
         onClick={handleClick}
       >
         .
@@ -162,7 +163,7 @@ const Calculator = () => {
       <button
         type="button"
         name="="
-        className="equal orange"
+        className="equal orange width"
         onClick={handleClick}
       >
         =

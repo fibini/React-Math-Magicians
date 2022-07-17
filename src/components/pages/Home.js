@@ -1,7 +1,8 @@
 import React from 'react';
+import '../CSS/Home.css';
 
 const Home = () => (
-  <div>
+  <div className="home">
     <h2 className="sub-heading">Welcome to our page!</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id consequat
