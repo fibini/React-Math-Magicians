@@ -4,158 +4,25 @@
 }
 
 body {
+  background-image: url(./components/images/mathsbg.jpg);
   margin: 2rem;
 }
 
-.calculator {
-  display: grid;
-  justify-items: center;
-  direction: rtl;
-  margin-top: 10%;
-  margin-left: 10%;
-  width: 50%;
-  grid-template-areas:
-    "answer answer answer answer"
-    "division percentage plus-minus ac"
-    "multiply nine eight seven"
-    "minus six five four"
-    "plus three two one"
-    "equal decimal zero zero";
-}
-
-.answer {
-  grid-area: answer;
-  color: white;
-  font-size: 35px;
-  background-color: #858693;
-  border-top: 2px solid lightgrey;
-  border-left: 2px solid lightgrey;
-  border-right: 2px solid lightgrey;
-  width: 100%;
-  line-height: 250%;
-}
-
-.ac {
-  grid-area: ac;
-  width: 100%;
-}
-
-.plus-minus {
-  direction: ltr;
-  grid-area: plus-minus;
-  width: 100%;
-}
-
-.percentage {
-  grid-area: percentage;
-  width: 100%;
-}
-
-.division {
-  grid-area: division;
-  width: 100%;
-}
-
-.seven {
-  grid-area: seven;
-  width: 100%;
-}
-
-.eight {
-  grid-area: eight;
-  width: 100%;
-}
-
-.nine {
-  grid-area: nine;
-  width: 100%;
-}
-
-.multiply {
-  grid-area: multiply;
-  width: 100%;
-}
-
-.four {
-  grid-area: four;
-  width: 100%;
-}
-
-.five {
-  grid-area: five;
-  width: 100%;
-}
-
-.six {
-  grid-area: six;
-  width: 100%;
-}
-
-.minus {
-  grid-area: minus;
-  width: 100%;
-}
-
-.one {
-  grid-area: one;
-  width: 100%;
-}
-
-.two {
-  grid-area: two;
-  width: 100%;
-}
-
-.three {
-  grid-area: three;
-  width: 100%;
-}
-
-.plus {
-  grid-area: plus;
-  width: 100%;
-}
-
-.zero {
-  grid-area: zero;
-  width: 100%;
-}
-
-.decimal {
-  grid-area: decimal;
-  width: 100%;
-}
-
-.equal {
-  grid-area: equal;
-  width: 100%;
-}
-
-.lightgrey {
-  line-height: 400%;
-  font-weight: bold;
-  border-top: 2px solid lightgrey;
-  border-left: 2px solid lightgrey;
-  text-align: center;
+.h1-box {
   background-color: #e0e0e0;
-}
-
-.orange {
-  line-height: 400%;
-  font-weight: bold;
-  border-top: 2px solid lightgrey;
-  border-left: 2px solid lightgrey;
-  border-right: 2px solid lightgrey;
-  text-align: center;
-  background-color: #f5913e;
-}
-
-.sub-heading {
-  margin-bottom: 3rem;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
 }
 
 h1 {
   font-size: 50px;
+}
+
+.h2-box {
+  background-color: #e0e0e0;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  height: max-content;
 }
 
 h2 {
@@ -172,16 +39,7 @@ p {
   font-size: 20px;
 }
 
-.calc-box {
-  display: flex;
-  justify-content: space-between;
-}
-
-.quote {
-  display: flex;
-  justify-content: center;
-}
-
-.devider {
-  border-right: 2px solid black;
+a {
+  text-decoration: none;
+  color: black;
 }

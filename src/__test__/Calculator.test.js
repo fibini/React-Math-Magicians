@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { fireEvent, render } from '@testing-library/react';
-import Calculator from '../Calculator';
+import Calculator from '../components/Calculator';
 import '@testing-library/jest-dom/extend-expect';
 
 test('Calculator correct click functionality', () => {

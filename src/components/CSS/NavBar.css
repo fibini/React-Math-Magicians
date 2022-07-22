@@ -1,0 +1,18 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.navlinks {
+  display: flex;
+  gap: 3rem;
+  background-color: #e0e0e0;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+}
+
+.divider {
+  border-right: 2px solid black;
+}
